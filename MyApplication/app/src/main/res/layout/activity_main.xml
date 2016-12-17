@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/am_lltop"
+        android:background="@color/colorPrimary"
+        android:padding="7dp"
+        >
+
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="53dp"
+            android:layout_height="43dp"
+
+            android:src="@drawable/logo"
+             />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University login"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:layout_marginLeft="4dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brrow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/am_lltop"
+      android:id="@+id/am_uploadimg"
+    android:padding="5dp"
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/man"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:id="@+id/appCompatImageView" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Hear Add your Profile Pic !"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textSize="9sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Details "
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+        android:padding="7dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="First Name "
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            />
+          <EditText
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:hint="First Name"
+              android:layout_marginLeft="17dp"
+              android:layout_marginTop="5dp"
+              android:layout_weight="0.5"
+              android:background="@drawable/news_list_background"
+              android:padding="4dp"
+
+              />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+
+        android:padding="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="last Name "
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="last Name"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/news_list_background"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+        android:padding="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Emaile"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:padding="4dp"
+            android:background="@drawable/news_list_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+        android:padding="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:layout_marginLeft="17dp"
+            android:layout_weight="0.5"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:background="@drawable/news_list_background"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+        android:padding="5dp"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:inputType="textWebPassword"
+            android:padding="4dp"
+            android:background="@drawable/news_list_background"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/am_uploadimg"
+        android:padding="5dp"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="RePassword "
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="RePassword"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="7dp"
+            android:inputType="textWebPassword"
+            android:background="@drawable/news_list_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree Terms and Conditions "
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center"
+     >
+     <android.support.v7.widget.AppCompatTextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Login"
+         android:textColor="@android:color/white"
+         android:textSize="30sp"
+          android:layout_gravity="center"
+         android:layout_marginRight="6dp"
+         android:background="@color/colorPrimary"
+         android:padding="10dp"
+
+
+         />
+     <android.support.v7.widget.AppCompatTextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Register"
+         android:textColor="@android:color/white"
+         android:textSize="30sp"
+         android:layout_gravity="center"
+         android:layout_marginLeft="6dp"
+         android:background="@color/colorPrimary"
+      android:padding="10dp"
+         />
+
+
+ </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/am_uploadimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="4dp">
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

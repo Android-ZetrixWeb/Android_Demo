@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.drower.Location">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/l_icon"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Office: +91 9408540266 "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:textSize="18sp"
+           android:layout_marginTop="10dp"
+           android:text="Address: G-308 Titanium City Center ,Opp. Seema Hall , Anand Nagar Road , Satellite , Ahmedabad."/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Email: info@zetrixweb.com "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+
+
+   />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Website: www.zetrixweb.com"
+            android:textSize="15sp"
+
+            />
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
